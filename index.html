@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chris Messa Portfolio Page</title>
-    <link rel="stylesheet" src="./assets/style.css">
-    <link rel="stylesheet" src="./assets/reset.css">
+    <!--<link rel="stylesheet" src="./assets/reset.css">-->
+    <link rel="stylesheet" href="./assets/style.css">
+    
 </head>
 <body>
-    <header>
+    <header id="top-header">
         <h1>Chris Messa's Portfolio</h1>
         <nav>
             <ul class="nav-list">
@@ -23,14 +24,24 @@
             <h2>subtitle</h2>
     </header>
     <main>
-        <section id="about-me"></section>
-        <section id="work" class="grid-container">
+        <section id="about-me">
+            <header class="section-heading">
+                <h3>About me</h3>
+            </header>
+        </section>
+        <div id="work">
+            <header class="section-heading">
+                <h3>Work</h3>
+            </header>
+            
+            <section class="grid-container">
             <article class="project-card">Placeholder</article>
             <article class="project-card">Placeholder</article>
             <article class="project-card">Placeholder</article>
             <article class="project-card">Placeholder</article>
             <article class="project-card">Placeholder</article>
         </section>
+        </div>
         <section id="contact-me">
             <ul class="contact-items">
                 <li>Placeholder</li>
