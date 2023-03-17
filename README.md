@@ -12,6 +12,7 @@ As well as [Google Fonts](https://fonts.google.com/) and [Font-Awesome](https://
 There are currently several changes and features I'd like to make in the future of this project:
 
 - Remove unnecessary whitespace in the Project-1 card 
+
 ![Unnecessary-whitespace](https://user-images.githubusercontent.com/39140839/225809053-aab69f4d-d08f-4f22-aa74-d12296762b57.png)
 
 - Smooth scrolling when a link is selected in the nav-bar
