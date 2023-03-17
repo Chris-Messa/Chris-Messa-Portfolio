@@ -12,6 +12,8 @@ As well as [Google Fonts](https://fonts.google.com/) and [Font-Awesome](https://
 There are currently several changes and features I'd like to make in the future of this project:
 
 - Remove unnecessary whitespace in the Project-1 card 
+![Unnecessary-whitespace](https://user-images.githubusercontent.com/39140839/225809053-aab69f4d-d08f-4f22-aa74-d12296762b57.png)
+
 - Smooth scrolling when a link is selected in the nav-bar
 - More CSS animation and hover features 
 - Implementation of auto generating css grid items so I am able to continuously add new projects
@@ -22,3 +24,6 @@ There are currently several changes and features I'd like to make in the future 
 To use the basic features of the application as it stands, one can use the deployed github pages link: <!--place link here-->
 As it stands, the application simply links to the first project I have created through my coding bootcamp, as well as internally linking to other parts of the page. By clicking on the items in the nav-bar (barring the "Resume" item), the user will automatically be taken to the corresponding section on the page. When the user clicks on the "Accessibility Project" card, they will be taken to the deployed application on Github Pages.
 
+
+
+![Chris Messa Portfolio Page](https://user-images.githubusercontent.com/39140839/225809551-f4231df3-7020-456b-8504-c4ce6d02e971.gif)
