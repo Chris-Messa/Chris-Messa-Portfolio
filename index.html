@@ -13,8 +13,12 @@
 <script src="https://kit.fontawesome.com/dc1bd0c475.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
+    <!--Contains the top section of the page, including the navbar-->
     <header id="top-header">
         <h1>Chris Messa's Portfolio</h1>
+
+        <!--The nav bar that links to sections on the page-->
         <nav>
             <ul class="nav-list">
                 <li class="nav-list-item"><a href=#about-me class="grow">About Me</a></li>
@@ -26,11 +30,16 @@
         <section class="subtitle"></section>
             <h2>Welcome to my portfolio page!</h2>
     </header>
+
+    <!--Main content-->
     <main>
+
+        <!--Flexbox container for headshot-->
         <div class="img-flex-container">
             <img src="./assets/Images/IMG_1384.JPG" id="self-pic">
         </div>
         
+        <!--About me section-->
         <section id="about-me">
             <header class="section-heading">
                 <h3>About me</h3>
@@ -43,18 +52,25 @@
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
         </section>
+
+        <!--Section that contains the portfolio projects-->
         <section id="work">
             <header class="section-heading">
                 <h3>Work</h3>
             </header>
             
+            <!--Container for the CSS grid used to host the projects-->
             <div class="grid-container">
+
+                <!--Deployed application (Project 1). Whichever project is featured in should appear larger than the following projects-->
                 <div id="project-1" class="project-card">
                     <a href="https://chris-messa.github.io/module-1-project/">
                         <img src="./assets/Images/Screenshot 2023-03-14 173425.png">
                         <span class="project-name">Accessibility Project</span>
                     </a>
                 </div>
+
+                <!--The placeholder cards for future projects-->
                 <div id="project-2" class="project-card">
                     <a href="#"><article class="project-name">Placeholder 1</article></a>
                 </div>
@@ -69,10 +85,14 @@
                 </div> 
             </div>
         </section>
+
+        <!--Contact me section-->
         <section id="contact-me">
             <header class="section-heading">
                 <h3>Contact Me</h3>
             </header>
+            
+        <!--Various contact items, styled using font awesome icons-->
             <ul class="contact-items">
                 <li><i class="fa fa-phone"></i> (540) 827-8707</li>
                 <a href="https://github.com/Chris-Messa"><li><i class="fa fa-github"></i> Github</li></a>
