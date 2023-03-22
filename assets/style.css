@@ -93,9 +93,15 @@ header nav ul li {
 }
 
 /* Styles the headings for each section on page */
-main:nth-child(n) {
+/* main:nth-child(n) {
     border-left: solid black 3px;
     padding: 10px;
+} */
+
+.main-sections {
+    border-left: solid var(--main-color) 4px;
+    padding: 50px;
+    margin-bottom: 50px;
 }
 
 .section-heading {
@@ -111,14 +117,14 @@ main:nth-child(n) {
     font-weight: bold;
 }
 
-.project-card {
+.card-border {
     border: solid black;
 }
 
 img {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    height: 400px;
+    object-fit: cover;
 }
 
 .project-name {
@@ -144,6 +150,7 @@ img {
 
 #project-1 {
     position: relative;
+    height: 400px;
 }
 
 #project-1 .project-name {
